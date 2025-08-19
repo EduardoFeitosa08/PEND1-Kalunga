@@ -13,17 +13,135 @@ body{
 header{
     background-color: black;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px 15px 20px;
+}
+
+header img{
+    width: 120px;
 }
 
 p{
     color: white;
+    font-size: 12px;
 }
-
-h3{
-    color: white;
-}
-
 h4{
     color: white;
 }
 
+span{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.endereco{
+    display: flex;
+    gap: 6px;
+}
+
+.endereco img{
+    width: 30px;
+}
+
+.endereco p{
+    width: 105px;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+}
+
+.barra-pesquisa{
+    width: 80%;
+}
+
+.barra-pesquisa input{
+    border-radius: 4px 0 0 4px;
+    border: none;
+    padding: 9px;
+}
+
+input:focus{
+  outline: none;
+}
+
+.button-pesquisa{
+    background-color: orange;
+    border-radius: 0 4px 4px 0;
+    border: none;
+    padding: 2px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-pesquisa img{
+    width: 30px;
+}
+
+.loja{
+    width: 70px;
+    text-align: center;
+}
+
+.usuario{
+    display: flex;
+    gap: 6px;
+}
+
+.usuario img{
+    width: 30px;
+}
+
+/* .usuario-login{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+.login{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.login h4{
+    font-size: 11px;
+}
+
+.login img{
+    height: 10px;
+    width: 15px;
+}
+
+.cartuchos{
+    width: 50px;
+}
+
+.pedidos{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.pedidos img{
+    width: 30px;
+}
+
+.pedidos p{
+    width: 45px;
+}
+
+.carrinho{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.carrinho img{
+    width: 30px;
+}
